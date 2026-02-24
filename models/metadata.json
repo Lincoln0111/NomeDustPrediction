@@ -1,0 +1,48 @@
+{
+  "version": "3.0",
+  "trained_at": "2026-02-24T02:42:17.630201+00:00",
+  "data_file": "Nome-Hourly-Data.csv",
+  "train_samples": 10412,
+  "val_samples": 2603,
+  "feature_count": 168,
+  "selected_features": 84,
+  "classifier_metrics": {
+    "train_samples": 10412,
+    "train_positive": 3115,
+    "train_auc": 0.9775063786410607,
+    "train_brier": 0.07546557287719982,
+    "train_precision": 0.8662986813860779,
+    "train_recall": 0.9069020866773676,
+    "train_f1": 0.8861355081555834,
+    "optimal_threshold": 0.46970411293254494,
+    "selected_features": 84,
+    "val_samples": 2603,
+    "val_positive": 871,
+    "val_auc": 0.9607403557801683,
+    "val_brier": 0.10059374459899553,
+    "val_precision": 0.81139896373057,
+    "val_recall": 0.8989667049368542,
+    "val_f1": 0.8529411764705882
+  },
+  "regressor_metrics": {
+    "train_samples": 10412,
+    "train_mae": 14.190062897060548,
+    "train_rmse": 35.66927915669559,
+    "train_coverage": 0.8067614291202458,
+    "selected_features": 84,
+    "train_mae_high": 52.419433405416775,
+    "val_samples": 2603,
+    "val_mae": 27.358248281739787,
+    "val_rmse": 113.5450311833766,
+    "val_coverage": 0.8017671917018825,
+    "val_mae_high": 105.98216174785216
+  },
+  "cv_results": null,
+  "config": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "use_ensemble": true,
+    "use_feature_selection": true
+  }
+}
